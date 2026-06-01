@@ -46,6 +46,10 @@ img {
   padding-bottom: 120px;
 }
 
+input {
+  font-family: inherit;
+}
+
 /* h2 */
 .section-title {
   margin-bottom: 72px;

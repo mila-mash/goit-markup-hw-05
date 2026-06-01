@@ -9,13 +9,6 @@
   align-items: center;
 }
 
-.footer-container {
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  gap: 120px;
-}
-
 .end-logo {
   color: #f4f4fd;
   font-family: 'Raleway';

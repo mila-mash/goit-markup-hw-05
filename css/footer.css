@@ -9,8 +9,11 @@
   align-items: center;
 }
 
-.footer-container:last-child {
-  margin-left: auto;
+.footer-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 120px;
 }
 
 .end-logo {
@@ -92,6 +95,10 @@
   letter-spacing: 0.02em;
   color: #fff;
   margin-bottom: 16px;
+}
+
+.footer-input {
+  margin-top: 16px;
 }
 
 .subscr-wrapper input {

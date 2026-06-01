@@ -9,8 +9,8 @@
   align-items: center;
 }
 
-.footer-container:not(:last-child) {
-  margin-right: 120px;
+.footer-container:last-child {
+  margin-left: auto;
 }
 
 .end-logo {

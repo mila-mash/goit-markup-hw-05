@@ -518,11 +518,14 @@
         <div class="footer-container">
           <form name="subscribtion_form" class="subscr-form">
             <div class="subscr-wrapper">
-              <label for="subscribtion-email">Subscribe</label>
+              <label for="subscribtion-email"
+                ><p class="footer-text">Subscribe</p></label
+              >
               <input
                 type="email"
                 id="subscribtion-email"
                 placeholder="E-mail"
+                name="e-mail"
               />
             </div>
 
@@ -537,7 +540,8 @@
       </div>
     </footer>
 
-    <div class="backdrop">
+    <!--Modal-->
+    <div class="backdrop" id="modal">
       <div class="modal">
         <button class="close-modal" type="button">
           <svg width="8px" height="8px" class="close-modal-icon">
@@ -555,6 +559,7 @@
                 type="text"
                 id="modal-name"
                 class="modal-input"
+                name="name"
                 autofocus
               />
               <svg width="12px" height="12px" class="modal-item-icon">
@@ -566,7 +571,7 @@
           <div class="modal-item">
             <label for="modal-tel" class="modal-label">Phone</label>
             <div class="item-wrap">
-              <input type="tel" id="modal-tel" class="modal-input" />
+              <input type="tel" id="modal-tel" name="tel" class="modal-input" />
               <svg width="13px" height="13px" class="modal-item-icon">
                 <use href="./images/icons.svg#phone-icon"></use>
               </svg>
@@ -576,7 +581,12 @@
           <div class="modal-item">
             <label for="modal-email" class="modal-label">Email</label>
             <div class="item-wrap">
-              <input type="email" id="modal-email" class="modal-input" />
+              <input
+                type="email"
+                id="modal-email"
+                name="email"
+                class="modal-input"
+              />
               <svg width="15px" height="12px" class="modal-item-icon">
                 <use href="./images/icons.svg#email-icon"></use>
               </svg>
@@ -589,6 +599,7 @@
               id="modal-comment"
               class="modal-area"
               rows="6"
+              name="comment"
               placeholder="Text input"
             ></textarea>
           </div>
@@ -598,6 +609,7 @@
               type="checkbox"
               id="modal-check"
               class="modal-check sr-only"
+              name="accept_terms"
             />
 
             <label for="modal-check" class="modal-check-label">

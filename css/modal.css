@@ -116,7 +116,7 @@
   line-height: 1.16667;
   letter-spacing: 0.04em;
   color: rgba(46, 47, 66, 0.4);
-  border-color: transparent;
+  background-color: transparent;
 }
 
 .modal-input {
